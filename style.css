@@ -1,0 +1,121 @@
+*{
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 640px){
+    div.menu{
+        font-size: 15px;
+    }
+}
+
+@media  screen and (max-width:639px) {
+div.menu{
+    font-size: 10px;
+}
+    
+}
+
+.flex-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width:800px;
+    padding:20px;
+    background-color: white;
+    font-size:14px;
+    
+}
+
+.item{
+    
+    justify-content: flex-start;
+}
+
+.about{
+   display: flex;
+
+    
+}
+
+.item2{
+    justify-content: flex-end;
+}
+
+.line-1{
+    height: .5px;
+    background: black;
+   margin-bottom: 8px;
+
+}
+.line-2{
+    height: 1px;
+    background: black;
+   margin-bottom: 8px;
+
+}
+
+.grid-container{
+    display: grid;
+   justify-content: space-evenly;
+    grid-gap: 15px 15px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    align-content: center;
+ }
+
+
+
+ .img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    border-radius: 25px;
+  }
+
+ .grid-item{
+     border: 2px;
+     border-style:solid ;
+     border-radius: 20px;
+     padding: 5px;
+ }
+
+ .copy{
+    
+    background-color: black;
+    color: white;
+    padding: 10px;
+text-align: center;
+ }
+    
+ .flex-container {
+    color: #fff;
+    background-color: black; 
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .link{
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .contact{
+      margin-left: 20px;
+  }
